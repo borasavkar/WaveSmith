@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+.vscode/
+# FFmpeg binaries are large; they ship in the release zip, not in git
+ffmpeg.exe
+ffprobe.exe
+# local settings
+WaveSmith.ini
+# design source images
+assets/Gemini_*.png
